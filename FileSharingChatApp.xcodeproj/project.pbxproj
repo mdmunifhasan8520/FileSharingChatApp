@@ -12,6 +12,7 @@
 		FAA584E021448144002D0067 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA584DE21448144002D0067 /* Main.storyboard */; };
 		FAA584E221448161002D0067 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA584E121448161002D0067 /* Assets.xcassets */; };
 		FAA584E521448161002D0067 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA584E321448161002D0067 /* LaunchScreen.storyboard */; };
+		FAA584EE2144854A002D0067 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA584ED2144854A002D0067 /* LoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FAA584E121448161002D0067 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA584E421448161002D0067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAA584E621448161002D0067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA584ED2144854A002D0067 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		FAA584D921448144002D0067 /* FileSharingChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				FAA584EC2144850A002D0067 /* Controller */,
 				FAA584DA21448144002D0067 /* AppDelegate.swift */,
-				FAA584DC21448144002D0067 /* ViewController.swift */,
 				FAA584DE21448144002D0067 /* Main.storyboard */,
 				FAA584E121448161002D0067 /* Assets.xcassets */,
 				FAA584E321448161002D0067 /* LaunchScreen.storyboard */,
 				FAA584E621448161002D0067 /* Info.plist */,
 			);
 			path = FileSharingChatApp;
+			sourceTree = "<group>";
+		};
+		FAA584EC2144850A002D0067 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAA584ED2144854A002D0067 /* LoginController.swift */,
+				FAA584DC21448144002D0067 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAA584DD21448144002D0067 /* ViewController.swift in Sources */,
+				FAA584EE2144854A002D0067 /* LoginController.swift in Sources */,
 				FAA584DB21448144002D0067 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
